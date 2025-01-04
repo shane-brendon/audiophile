@@ -3,13 +3,13 @@ import React from "react"
 import "./promoCard.scss"
 const PromoCard = () => {
   return (
-    <section id="promoCard" className="promoCard">
+    <section id="promoCard" className="promoCard tw-pt-52">
       <div className="container tw-flex tw-items-center tw-justify-between">
         <div className="promoCard__text  tw-max-w-[445px]">
-          <h2>
-            Bringing you the <em>best</em> audio gear
-          </h2>
-          <div>
+          <div className="h2 tw-font-bold tw-mb-8 tw-uppercase ">
+            Bringing you the <em className="tw-not-italic tw-text-primary">best</em> audio gear
+          </div>
+          <div className=" tw-opacity-50 tw-font-medium">
             <p>
               Located at the heart of New York City, Audiophile is the premier
               store for high end headphones, earphones, speakers, and audio
