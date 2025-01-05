@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.scss";
 import "./global.css";
 import PromoCard from "../src/components/promoCard/PromoCard"
+import Footer from "../src/components/footer/Footer"
 
 const manrope = localFont({
   src: "./fonts/Manrope-VariableFont_wght.ttf",
@@ -26,6 +27,7 @@ export default function RootLayout({
       <body className={`${manrope.variable}`}>
         {children}
         <PromoCard/>
+        <Footer/>
       </body>
     </html>
   );

@@ -3,7 +3,7 @@ import React from "react"
 import "./promoCard.scss"
 const PromoCard = () => {
   return (
-    <section id="promoCard" className="promoCard tw-pt-52">
+    <section id="promoCard" className="promoCard tw-py-52">
       <div className="container tw-flex tw-items-center tw-justify-between">
         <div className="promoCard__text  tw-max-w-[445px]">
           <div className="h2 tw-font-bold tw-mb-8 tw-uppercase ">
