@@ -4,6 +4,7 @@ import "./globals.scss";
 import "./global.css";
 import PromoCard from "../src/components/promoCard/PromoCard"
 import Footer from "../src/components/footer/Footer"
+import Header from "../src/components/header/Header"
 
 const manrope = localFont({
   src: "./fonts/Manrope-VariableFont_wght.ttf",
@@ -25,6 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${manrope.variable}`}>
+        <Header/>
         {children}
         <PromoCard/>
         <Footer/>
